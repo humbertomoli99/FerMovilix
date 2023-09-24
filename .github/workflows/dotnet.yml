@@ -23,7 +23,7 @@ jobs:
     - name: Restore workloads
       run: |
         dotnet workload restore FerMovilix.Core/FerMovilix.Core.csproj
-        dotnet workload restore ../FerMovilix/FerMovilix.csproj
+        dotnet workload restore FerMovilix/FerMovilix.csproj
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
