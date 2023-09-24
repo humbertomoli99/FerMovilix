@@ -22,8 +22,8 @@ jobs:
         dotnet-version: 6.0.x
     - name: Restore workloads
       run: |
-        dotnet workload restore /home/runner/work/FerMovilix/FerMovilix/FerMovilix.Core/FerMovilix.Core.csproj::TargetFramework=net7.0
-        dotnet workload restore /home/runner/work/FerMovilix/FerMovilix/FerMovilix/FerMovilix.csproj::TargetFramework=net7.0-android
+        dotnet workload restore /FerMovilix/FerMovilix/FerMovilix.Core/FerMovilix.Core.csproj::TargetFramework=net7.0
+        dotnet workload restore /FerMovilix/FerMovilix/FerMovilix/FerMovilix.csproj::TargetFramework=net7.0-android
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
