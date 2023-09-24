@@ -22,8 +22,7 @@ jobs:
         dotnet-version: 7.x.x
     - name: Restore workloads
       run: |
-        dotnet workload restore FerMovilix.Core/FerMovilix.Core.csproj
-        dotnet workload restore FerMovilix/FerMovilix.csproj::TargetFramework=net7.0::TargetFramework=net7.0
+        dotnet workload restore FerMovilix/FerMovilix.csproj
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
