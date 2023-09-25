@@ -1,4 +1,5 @@
 # FerMovilix: Tu Ruta, Tu Tiempo, Tu Elección.
+![_45332f05-9801-48c3-8c3a-ddc4450a413a](https://github.com/humbertomoli99/FerMovilix/assets/22565720/ebda3179-fbd2-4628-a795-fa5aed57d9c0)
 
 FerMovilix es una aplicación de movilidad centrada en mejorar la experiencia de transporte público en Monterrey, enfocándose en la tarjeta feria y la conectividad Wiwi. Proporciona a los usuarios herramientas para planificar, rastrear y optimizar sus viajes de manera eficiente.
 
